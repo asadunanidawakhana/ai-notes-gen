@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <title>AI Note Summarizer | Free Summaries, Flashcards & Quizzes</title>
+    <meta
+      name="description"
+      content="Instantly summarize your notes, generate flashcards, and create quizzes with our free AI Note Summarizer. Powered by Google's Gemini API, it's the ultimate study assistant for students. Paste text or upload a file to get started!"
+    />
+    <meta 
+      name="keywords" 
+      content="AI note summarizer, free summary tool, text summarizer, flashcard generator, quiz generator, study assistant, student productivity, Gemini API, AI learning tools, automated notes, study help" 
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'brand-purple': '#6b21a8',
+              'brand-pink': '#db2777',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.16.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-200 dark:bg-[#1a102c] transition-colors duration-300">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

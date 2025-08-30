@@ -1,0 +1,5 @@
+{
+  "name": "AI Note Summarizer",
+  "description": "An AI-powered tool to automatically generate summaries, flashcards, and quizzes from your notes. It leverages the Google Gemini API to provide intelligent learning aids in a sleek, modern interface.",
+  "requestFramePermissions": []
+}
